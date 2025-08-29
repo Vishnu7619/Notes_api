@@ -14,7 +14,7 @@ import (
 
 func main() {
 
-	constr := "user=postgres password=Fyers@2025 dbname=user_notes sslmode = disable"
+	constr := "user=postgres password=****** dbname=******* sslmode = disable"
 	db, err := sql.Open("postgres", constr)
 	if err != nil {
 		log.Fatal(err)
